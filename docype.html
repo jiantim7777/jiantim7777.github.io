@@ -2,9 +2,9 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
-  <title>文字陰影效果</title>
+  <title>多重文字陰影效果</title>
   <style>
-    .shadow-text {
+    .shadow-text-orange {
       font-size: 48px;
       font-weight: bold;
       color: black;
@@ -12,14 +12,22 @@
         2px 2px 0 orange,
         4px 4px 0 gray,
         6px 6px 0 silver;
+      margin-bottom: 30px;
     }
-      a link {color:black}
+
+    .shadow-text-black {
+      font-size: 48px;
+      font-weight: bold;
+      color: black;
+      text-shadow: 
+        2px 2px 0 black,
+        4px 4px 0 gray,
+        6px 6px 0 silver;
+    }
   </style>
 </head>
 <body>
-  <ui>
-  <div class="shadow-text1">Hi World~</div>
-  <div class="shadow-text2">Hi World~</div>
-  <ui>
+  <div class="shadow-text-orange">Hi world</div>
+  <div class="shadow-text-black">Hi World</div>
 </body>
 </html>
