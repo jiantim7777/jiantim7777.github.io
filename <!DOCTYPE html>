@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>文字陰影效果</title>
+  <style>
+    .shadow-text {
+      font-size: 48px;
+      font-weight: bold;
+      color: black;
+      text-shadow: 
+        2px 2px 0 orange,
+        4px 4px 0 gray,
+        6px 6px 0 silver;
+    }
+  </style>
+</head>
+<body>
+  <div class="shadow-text">效果</div>
+</body>
+</html>
